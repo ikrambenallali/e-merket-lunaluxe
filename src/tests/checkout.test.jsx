@@ -12,7 +12,7 @@ import { api } from '../config/api';
 
 // Mock dependencies
 jest.mock('../config/api');
-jest.mock('../hooks/UseOrders');
+jest.mock('../Hooks/UseOrders');
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useNavigate: jest.fn(),

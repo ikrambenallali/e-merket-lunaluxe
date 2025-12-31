@@ -85,7 +85,7 @@ jest.mock('../components/Seller/CouponManagement', () => {
 });
 
 // Mock useCart hook to avoid cart initialization on ClientDashboard mount
-jest.mock('../hooks/useCart', () => ({
+jest.mock('../Hooks/useCart', () => ({
   useCart: jest.fn(),
 }));
 

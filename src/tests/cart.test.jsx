@@ -20,7 +20,7 @@ jest.mock('react-toastify', () => ({
 }));
 
 // Mock the useCart hook for component tests
-jest.mock('../hooks/useCart', () => ({
+jest.mock('../Hooks/useCart', () => ({
   useCart: jest.fn(),
 }));
 
