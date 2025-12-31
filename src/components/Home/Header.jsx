@@ -29,7 +29,6 @@ export default function Header() {
       <button className='bg-red-500'>hi</button>
       <div className="font-playfair relative z-10 flex flex-col justify-center h-full pl-6 sm:pl-12 md:pl-20 lg:pl-32 text-left w-[90%] md:w-[50%]">
         <h1 className="text-brandWhite uppercase text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
-        At LunaLuxe, beauty shines like the moon—effortless, powerful, and captivating.
         </h1>
 
         <button className="mt-8 px-8 py-3 w-fit text-lg font-montserrat text-brandWhite bg-brandRed 
