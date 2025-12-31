@@ -25,7 +25,7 @@ export default function Header() {
 
       {/* overlay to darken video */}
       <div className="absolute top-0 left-0 h-full w-full bg-black/40 z-0"></div>
-      
+      <h1 className='bg-red-500'>hi ikram  labas </h1>
       <div className="font-playfair relative z-10 flex flex-col justify-center h-full pl-6 sm:pl-12 md:pl-20 lg:pl-32 text-left w-[90%] md:w-[50%]">
         <h1 className="text-brandWhite uppercase text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
         At LunaLuxe, beauty shines like the moon—effortless, powerful, and captivating.
